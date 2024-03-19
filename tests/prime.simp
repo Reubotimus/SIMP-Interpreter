@@ -1,0 +1,18 @@
+number := 5072;
+isPrime := 0;
+while (!isPrime = 0) do
+    (
+        isPrime := 0;
+        i := 2;
+        loop := 0;
+        (
+            while ((!loop = 0) && ((!i * !i) <= !number)) do
+                (
+                    if ((!number % !i) = 0) then
+                        (loop := 1)
+                    else 
+                        (i := !i + 1);
+                );
+            if (!loop = 0) then (isPrime := 1) else (number := !number + 1);
+        );
+    );

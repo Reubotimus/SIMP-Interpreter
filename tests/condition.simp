@@ -1,0 +1,6 @@
+number := 1;
+i := 1;
+if ((!number - ((!number / !i) * !i)) = 0) then 
+    (loop := 1) 
+else 
+    (i := !i + 1)
